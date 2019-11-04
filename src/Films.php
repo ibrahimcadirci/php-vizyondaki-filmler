@@ -41,7 +41,7 @@ class Films {
    }
 
    public function categorys(){
-        return $this->categorys;
+        return array_unique($this->categorys);
    }
 
    public function random(){
